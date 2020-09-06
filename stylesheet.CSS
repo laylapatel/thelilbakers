@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+   padding: 16px;
+   border-bottom: 1px solid deeppink; 
+}
+li:hover{
+    background-color:salmon ;
+}
+.navlinks{
+    background-color: cyan;
+    color: deeppink;
+    text-align: center;
+    font-size: 1.2rem;
+    
+    
+}
+
+img{
+    width: 60%; 
+    height: 60%;  
+}
+
+.imagebanner {
+   background-image: url(images/bake\ bakround.jpeg); 
+   padding: 50px 0;
+    background-position: center;
+   background-size: 50% 100%;
+   background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+
+}
+
+.introduction {
+    text-align: center;
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+h1{
+    color: violet;
+    text-indent: 50px;
+}
+
+p {
+    color: steelblue;
+    text-indent: 100px;
+}
+
+@media screen and (min-width: 700px){
+    ul{
+        text-align: center;
+    }
+    li{
+        display: block;
+        
+        border:1px solid purple;
+    }
+    .ourdeserts{
+        
+    }
+}
